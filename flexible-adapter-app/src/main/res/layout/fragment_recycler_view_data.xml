@@ -4,9 +4,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+        <import type="eu.davidea.flexibleadapter.items.AbstractFlexibleItem" />
         <variable
             name="items"
-            type="androidx.databinding.ObservableArrayList" />
+            type="androidx.databinding.ObservableArrayList&lt;AbstractFlexibleItem>" />
     </data>
 
     <FrameLayout
@@ -27,12 +28,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recycler_view"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:items="@{items}"
-                    tools:listitem="@layout/recycler_simple_item" />
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/recycler_view"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    app:items="@{items}"-->
+<!--                    tools:listitem="@layout/recycler_simple_item" />-->
 
                 <!-- Needed by FlexibleAdapter for headers to be sticky.
                      This little layout is included in the library.

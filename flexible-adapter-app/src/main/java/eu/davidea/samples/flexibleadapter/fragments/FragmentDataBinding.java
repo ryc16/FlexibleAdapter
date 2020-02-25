@@ -63,7 +63,7 @@ public class FragmentDataBinding extends AbstractFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         eu.davidea.samples.flexibleadapter.databinding.FragmentRecyclerViewDataBinding binding = DataBindingUtil
                 .inflate(inflater, R.layout.fragment_recycler_view_data, container, false);
-        binding.setItems(items);
+//        binding.setItems(items);
         return binding.getRoot();
     }
 
