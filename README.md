@@ -4,6 +4,7 @@
 [![Licence](https://img.shields.io/badge/Licence-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 ![Methods and Size](https://img.shields.io/badge/Methods%20and%20size-Core:%20759,%20124%20KB%20|%20UI:%20267,%2068%20KB-e91e63.svg)
 
+
 # FlexibleAdapter
 - [v5.1.0](https://github.com/davideas/FlexibleAdapter/releases/tag/5.1.0) built on 2018.09.30 with AndroidX
 - If you come from previous versions, update your code following the Wiki page [Migrations](https://github.com/davideas/FlexibleAdapter/wiki/Migrations).
